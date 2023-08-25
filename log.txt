@@ -1,0 +1,742 @@
+/usr/bin/python3: can't open file '/home/nicolas/notificaciones-python/notificaciones-python.py': [Errno 2] No such file or directory
+/usr/bin/python3: can't open file '/home/nicolas/notificaciones-python/notificacion-python.py': [Errno 2] No such file or directory
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 3, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 687, 'relation': 'eq'}, 'max_score': 2.6513042, 'hits': [{'_index': 'my-application-logs', '_id': '6zkVgogBUqA6yMwhRA47', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:51.832Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}, {'_index': 'my-application-logs', '_id': '7DkVgogBUqA6yMwhTA4b', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:53.821Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}, {'_index': 'my-application-logs', '_id': '7TkVgogBUqA6yMwhVA4D', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:55.724Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}, {'_index': 'my-application-logs', '_id': '7jkVgogBUqA6yMwhVA4D', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:55.047Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}, {'_index': 'my-application-logs', '_id': '7zkVgogBUqA6yMwhVA4D', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:54.426Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}, {'_index': 'my-application-logs', '_id': '8DkVgogBUqA6yMwhWw7n', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:57.459Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}, {'_index': 'my-application-logs', '_id': '8TkVgogBUqA6yMwhWw7n', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:56.916Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}, {'_index': 'my-application-logs', '_id': '8jkVgogBUqA6yMwhWw7n', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:56.369Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}, {'_index': 'my-application-logs', '_id': '8zkVgogBUqA6yMwhYw7N', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:59.642Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}, {'_index': 'my-application-logs', '_id': '9DkVgogBUqA6yMwhYw7N', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:59.085Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}]}}
+Correo electrónico enviado con éxito.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 2, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 687, 'relation': 'eq'}, 'max_score': 2.6513042, 'hits': [{'_index': 'my-application-logs', '_id': '6zkVgogBUqA6yMwhRA47', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:51.832Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}, {'_index': 'my-application-logs', '_id': '7DkVgogBUqA6yMwhTA4b', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:53.821Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}, {'_index': 'my-application-logs', '_id': '7TkVgogBUqA6yMwhVA4D', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:55.724Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}, {'_index': 'my-application-logs', '_id': '7jkVgogBUqA6yMwhVA4D', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:55.047Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}, {'_index': 'my-application-logs', '_id': '7zkVgogBUqA6yMwhVA4D', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:54.426Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}, {'_index': 'my-application-logs', '_id': '8DkVgogBUqA6yMwhWw7n', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:57.459Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}, {'_index': 'my-application-logs', '_id': '8TkVgogBUqA6yMwhWw7n', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:56.916Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}, {'_index': 'my-application-logs', '_id': '8jkVgogBUqA6yMwhWw7n', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:56.369Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}, {'_index': 'my-application-logs', '_id': '8zkVgogBUqA6yMwhYw7N', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:59.642Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}, {'_index': 'my-application-logs', '_id': '9DkVgogBUqA6yMwhYw7N', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:59.085Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}]}}
+Correo electrónico enviado con éxito.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 2, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 687, 'relation': 'eq'}, 'max_score': 2.6513042, 'hits': [{'_index': 'my-application-logs', '_id': '6zkVgogBUqA6yMwhRA47', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:51.832Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}, {'_index': 'my-application-logs', '_id': '7DkVgogBUqA6yMwhTA4b', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:53.821Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}, {'_index': 'my-application-logs', '_id': '7TkVgogBUqA6yMwhVA4D', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:55.724Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}, {'_index': 'my-application-logs', '_id': '7jkVgogBUqA6yMwhVA4D', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:55.047Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}, {'_index': 'my-application-logs', '_id': '7zkVgogBUqA6yMwhVA4D', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:54.426Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}, {'_index': 'my-application-logs', '_id': '8DkVgogBUqA6yMwhWw7n', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:57.459Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}, {'_index': 'my-application-logs', '_id': '8TkVgogBUqA6yMwhWw7n', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:56.916Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}, {'_index': 'my-application-logs', '_id': '8jkVgogBUqA6yMwhWw7n', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:56.369Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}, {'_index': 'my-application-logs', '_id': '8zkVgogBUqA6yMwhYw7N', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:59.642Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}, {'_index': 'my-application-logs', '_id': '9DkVgogBUqA6yMwhYw7N', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:59.085Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}]}}
+Correo electrónico enviado con éxito.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 2, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 687, 'relation': 'eq'}, 'max_score': 2.6513042, 'hits': [{'_index': 'my-application-logs', '_id': '6zkVgogBUqA6yMwhRA47', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:51.832Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}, {'_index': 'my-application-logs', '_id': '7DkVgogBUqA6yMwhTA4b', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:53.821Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}, {'_index': 'my-application-logs', '_id': '7TkVgogBUqA6yMwhVA4D', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:55.724Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}, {'_index': 'my-application-logs', '_id': '7jkVgogBUqA6yMwhVA4D', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:55.047Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}, {'_index': 'my-application-logs', '_id': '7zkVgogBUqA6yMwhVA4D', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:54.426Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}, {'_index': 'my-application-logs', '_id': '8DkVgogBUqA6yMwhWw7n', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:57.459Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}, {'_index': 'my-application-logs', '_id': '8TkVgogBUqA6yMwhWw7n', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:56.916Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}, {'_index': 'my-application-logs', '_id': '8jkVgogBUqA6yMwhWw7n', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:56.369Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}, {'_index': 'my-application-logs', '_id': '8zkVgogBUqA6yMwhYw7N', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:59.642Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}, {'_index': 'my-application-logs', '_id': '9DkVgogBUqA6yMwhYw7N', '_score': 2.6513042, '_source': {'@timestamp': '2023-06-03T16:26:59.085Z', 'message': 'Credenciales invalidas', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '69.162.81.155', 'code': 401, 'geo': {'range': [1168261120, 1168269311], 'country': 'US', 'region': 'TX', 'eu': '0', 'timezone': 'America/Chicago', 'city': 'Dallas', 'll': [-96.805, 32.7767], 'metro': 623, 'area': 1000}}}}]}}
+Correo electrónico enviado con éxito.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 471, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 695, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 2, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 506, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 3, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 3, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 2, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 1, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 3, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 389, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 2, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 2, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 2, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 2, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 2, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 9, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 2, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 6, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 346, 'relation': 'eq'}, 'max_score': 3.9891186, 'hits': [{'_index': 'my-application-logs', '_id': '9H1fh4gBMw3B8uBjgxAq', '_score': 3.9891186, '_source': {'@timestamp': '2023-06-04T17:06:03.687Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}, {'_index': 'my-application-logs', '_id': '9X1fh4gBMw3B8uBjiRCT', '_score': 3.9891186, '_source': {'@timestamp': '2023-06-04T17:06:05.014Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}, {'_index': 'my-application-logs', '_id': '9n1fh4gBMw3B8uBjiRCT', '_score': 3.9891186, '_source': {'@timestamp': '2023-06-04T17:06:04.689Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}, {'_index': 'my-application-logs', '_id': '931fh4gBMw3B8uBjiRCT', '_score': 3.9891186, '_source': {'@timestamp': '2023-06-04T17:06:04.353Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}, {'_index': 'my-application-logs', '_id': '-H1fh4gBMw3B8uBjiRCT', '_score': 3.9891186, '_source': {'@timestamp': '2023-06-04T17:06:04.049Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}, {'_index': 'my-application-logs', '_id': '-X1fh4gBMw3B8uBjiRCT', '_score': 3.9891186, '_source': {'@timestamp': '2023-06-04T17:06:03.722Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}, {'_index': 'my-application-logs', '_id': '-n1fh4gBMw3B8uBjihAl', '_score': 3.9891186, '_source': {'@timestamp': '2023-06-04T17:06:05.474Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}, {'_index': 'my-application-logs', '_id': '-31fh4gBMw3B8uBjixAk', '_score': 3.9891186, '_source': {'@timestamp': '2023-06-04T17:06:05.696Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}, {'_index': 'my-application-logs', '_id': '_H1fh4gBMw3B8uBjkRB2', '_score': 3.9891186, '_source': {'@timestamp': '2023-06-04T17:06:07.220Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}, {'_index': 'my-application-logs', '_id': '_X1fh4gBMw3B8uBjkRB2', '_score': 3.9891186, '_source': {'@timestamp': '2023-06-04T17:06:06.937Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}]}}
+Correo electrónico enviado con éxito.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 4, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 346, 'relation': 'eq'}, 'max_score': 3.9891186, 'hits': [{'_index': 'my-application-logs', '_id': '9H1fh4gBMw3B8uBjgxAq', '_score': 3.9891186, '_source': {'@timestamp': '2023-06-04T17:06:03.687Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}, {'_index': 'my-application-logs', '_id': '9X1fh4gBMw3B8uBjiRCT', '_score': 3.9891186, '_source': {'@timestamp': '2023-06-04T17:06:05.014Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}, {'_index': 'my-application-logs', '_id': '9n1fh4gBMw3B8uBjiRCT', '_score': 3.9891186, '_source': {'@timestamp': '2023-06-04T17:06:04.689Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}, {'_index': 'my-application-logs', '_id': '931fh4gBMw3B8uBjiRCT', '_score': 3.9891186, '_source': {'@timestamp': '2023-06-04T17:06:04.353Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}, {'_index': 'my-application-logs', '_id': '-H1fh4gBMw3B8uBjiRCT', '_score': 3.9891186, '_source': {'@timestamp': '2023-06-04T17:06:04.049Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}, {'_index': 'my-application-logs', '_id': '-X1fh4gBMw3B8uBjiRCT', '_score': 3.9891186, '_source': {'@timestamp': '2023-06-04T17:06:03.722Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}, {'_index': 'my-application-logs', '_id': '-n1fh4gBMw3B8uBjihAl', '_score': 3.9891186, '_source': {'@timestamp': '2023-06-04T17:06:05.474Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}, {'_index': 'my-application-logs', '_id': '-31fh4gBMw3B8uBjixAk', '_score': 3.9891186, '_source': {'@timestamp': '2023-06-04T17:06:05.696Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}, {'_index': 'my-application-logs', '_id': '_H1fh4gBMw3B8uBjkRB2', '_score': 3.9891186, '_source': {'@timestamp': '2023-06-04T17:06:07.220Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}, {'_index': 'my-application-logs', '_id': '_X1fh4gBMw3B8uBjkRB2', '_score': 3.9891186, '_source': {'@timestamp': '2023-06-04T17:06:06.937Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}]}}
+Correo electrónico enviado con éxito.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 2, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 1, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+Traceback (most recent call last):
+  File "/home/nicolas/notificaciones-python/notificacion-smtp.py", line 49, in <module>
+    response = es.search(index=index_name, body=query)
+  File "/home/nicolas/.local/lib/python3.10/site-packages/elasticsearch/_sync/client/utils.py", line 414, in wrapped
+    return api(*args, **kwargs)
+  File "/home/nicolas/.local/lib/python3.10/site-packages/elasticsearch/_sync/client/__init__.py", line 3863, in search
+    return self.perform_request(  # type: ignore[return-value]
+  File "/home/nicolas/.local/lib/python3.10/site-packages/elasticsearch/_sync/client/_base.py", line 320, in perform_request
+    raise HTTP_EXCEPTIONS.get(meta.status, ApiError)(
+elasticsearch.ApiError: ApiError(503, 'search_phase_execution_exception', None)
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+Traceback (most recent call last):
+  File "/home/nicolas/notificaciones-python/notificacion-smtp.py", line 49, in <module>
+    response = es.search(index=index_name, body=query)
+  File "/home/nicolas/.local/lib/python3.10/site-packages/elasticsearch/_sync/client/utils.py", line 414, in wrapped
+    return api(*args, **kwargs)
+  File "/home/nicolas/.local/lib/python3.10/site-packages/elasticsearch/_sync/client/__init__.py", line 3863, in search
+    return self.perform_request(  # type: ignore[return-value]
+  File "/home/nicolas/.local/lib/python3.10/site-packages/elasticsearch/_sync/client/_base.py", line 285, in perform_request
+    meta, resp_body = self.transport.perform_request(
+  File "/home/nicolas/.local/lib/python3.10/site-packages/elastic_transport/_transport.py", line 329, in perform_request
+    meta, raw_data = node.perform_request(
+  File "/home/nicolas/.local/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 199, in perform_request
+    raise err from None
+elastic_transport.ConnectionError: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f72ec8800d0>: Failed to establish a new connection: [Errno 111] Connection refused))
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 53, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 48, 'relation': 'eq'}, 'max_score': 3.9891186, 'hits': [{'_index': 'my-application-logs', '_id': '6cI-UIkB_CDdf7aRjofl', '_score': 3.9891186, '_source': {'@timestamp': '2023-07-13T17:13:44.419Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}, {'_index': 'my-application-logs', '_id': '6sI-UIkB_CDdf7aRloe8', '_score': 3.9891186, '_source': {'@timestamp': '2023-07-13T17:13:46.202Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}, {'_index': 'my-application-logs', '_id': '68I-UIkB_CDdf7aRloe8', '_score': 3.9891186, '_source': {'@timestamp': '2023-07-13T17:13:45.376Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}, {'_index': 'my-application-logs', '_id': '7MI-UIkB_CDdf7aRnoee', '_score': 3.9891186, '_source': {'@timestamp': '2023-07-13T17:13:48.241Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}, {'_index': 'my-application-logs', '_id': '7cI-UIkB_CDdf7aRnoee', '_score': 3.9891186, '_source': {'@timestamp': '2023-07-13T17:13:47.525Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}, {'_index': 'my-application-logs', '_id': '7sI-UIkB_CDdf7aRnoee', '_score': 3.9891186, '_source': {'@timestamp': '2023-07-13T17:13:46.811Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}, {'_index': 'my-application-logs', '_id': '78I-UIkB_CDdf7aRpoeB', '_score': 3.9891186, '_source': {'@timestamp': '2023-07-13T17:13:49.014Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}, {'_index': 'my-application-logs', '_id': '8MI-UIkB_CDdf7aRrodY', '_score': 3.9891186, '_source': {'@timestamp': '2023-07-13T17:13:51.948Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}, {'_index': 'my-application-logs', '_id': '8cI-UIkB_CDdf7aRrodY', '_score': 3.9891186, '_source': {'@timestamp': '2023-07-13T17:13:51.247Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}, {'_index': 'my-application-logs', '_id': '8sI-UIkB_CDdf7aRrodY', '_score': 3.9891186, '_source': {'@timestamp': '2023-07-13T17:13:50.594Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}]}}
+Correo electrónico enviado con éxito.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+Traceback (most recent call last):
+  File "/home/nicolas/notificaciones-python/notificacion-smtp.py", line 49, in <module>
+    response = es.search(index=index_name, body=query)
+  File "/home/nicolas/.local/lib/python3.10/site-packages/elasticsearch/_sync/client/utils.py", line 414, in wrapped
+    return api(*args, **kwargs)
+  File "/home/nicolas/.local/lib/python3.10/site-packages/elasticsearch/_sync/client/__init__.py", line 3863, in search
+    return self.perform_request(  # type: ignore[return-value]
+  File "/home/nicolas/.local/lib/python3.10/site-packages/elasticsearch/_sync/client/_base.py", line 285, in perform_request
+    meta, resp_body = self.transport.perform_request(
+  File "/home/nicolas/.local/lib/python3.10/site-packages/elastic_transport/_transport.py", line 329, in perform_request
+    meta, raw_data = node.perform_request(
+  File "/home/nicolas/.local/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 199, in perform_request
+    raise err from None
+elastic_transport.ConnectionError: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f13770d80d0>: Failed to establish a new connection: [Errno 111] Connection refused))
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 5, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 2, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 2, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+Traceback (most recent call last):
+  File "/home/nicolas/notificaciones-python/notificacion-smtp.py", line 49, in <module>
+    response = es.search(index=index_name, body=query)
+  File "/home/nicolas/.local/lib/python3.10/site-packages/elasticsearch/_sync/client/utils.py", line 414, in wrapped
+    return api(*args, **kwargs)
+  File "/home/nicolas/.local/lib/python3.10/site-packages/elasticsearch/_sync/client/__init__.py", line 3863, in search
+    return self.perform_request(  # type: ignore[return-value]
+  File "/home/nicolas/.local/lib/python3.10/site-packages/elasticsearch/_sync/client/_base.py", line 285, in perform_request
+    meta, resp_body = self.transport.perform_request(
+  File "/home/nicolas/.local/lib/python3.10/site-packages/elastic_transport/_transport.py", line 329, in perform_request
+    meta, raw_data = node.perform_request(
+  File "/home/nicolas/.local/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 199, in perform_request
+    raise err from None
+elastic_transport.ConnectionError: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f10778d40d0>: Failed to establish a new connection: [Errno 111] Connection refused))
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 4, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 2, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 2, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 1, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 1, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 3, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 18, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 394, 'relation': 'eq'}, 'max_score': 3.9891186, 'hits': [{'_index': 'my-application-logs', '_id': '6cI-UIkB_CDdf7aRjofl', '_score': 3.9891186, '_source': {'@timestamp': '2023-07-13T17:13:44.419Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}, {'_index': 'my-application-logs', '_id': '6sI-UIkB_CDdf7aRloe8', '_score': 3.9891186, '_source': {'@timestamp': '2023-07-13T17:13:46.202Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}, {'_index': 'my-application-logs', '_id': '68I-UIkB_CDdf7aRloe8', '_score': 3.9891186, '_source': {'@timestamp': '2023-07-13T17:13:45.376Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}, {'_index': 'my-application-logs', '_id': '7MI-UIkB_CDdf7aRnoee', '_score': 3.9891186, '_source': {'@timestamp': '2023-07-13T17:13:48.241Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}, {'_index': 'my-application-logs', '_id': '7cI-UIkB_CDdf7aRnoee', '_score': 3.9891186, '_source': {'@timestamp': '2023-07-13T17:13:47.525Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}, {'_index': 'my-application-logs', '_id': '7sI-UIkB_CDdf7aRnoee', '_score': 3.9891186, '_source': {'@timestamp': '2023-07-13T17:13:46.811Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}, {'_index': 'my-application-logs', '_id': '78I-UIkB_CDdf7aRpoeB', '_score': 3.9891186, '_source': {'@timestamp': '2023-07-13T17:13:49.014Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}, {'_index': 'my-application-logs', '_id': '8MI-UIkB_CDdf7aRrodY', '_score': 3.9891186, '_source': {'@timestamp': '2023-07-13T17:13:51.948Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}, {'_index': 'my-application-logs', '_id': '8cI-UIkB_CDdf7aRrodY', '_score': 3.9891186, '_source': {'@timestamp': '2023-07-13T17:13:51.247Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}, {'_index': 'my-application-logs', '_id': '8sI-UIkB_CDdf7aRrodY', '_score': 3.9891186, '_source': {'@timestamp': '2023-07-13T17:13:50.594Z', 'message': 'No encontrado', 'severity': 'info', 'fields': {'url': '/api/user/getListRoles', 'useragent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0', 'ip': '179.199.248.75', 'code': 401, 'geo': {'range': [3016226816, 3016227071], 'country': 'BR', 'region': 'RJ', 'eu': '0', 'timezone': 'America/Sao_Paulo', 'city': 'Sao Goncalo', 'll': [-43.0324, -22.8193], 'metro': 0, 'area': 20}}}}]}}
+Correo electrónico enviado con éxito.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 1, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 1, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 1, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 4, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 2, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 1, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 1, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 2, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 1, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 1, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 1, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 1, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 1, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 1, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 1, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 1, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 1, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 1, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 1, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 1, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 1, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 1, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 1, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 1, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 1, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 1, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 1, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 1, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 1, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 1, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 0, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 24, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 5, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+Traceback (most recent call last):
+  File "/home/nicolas/notificaciones-python/notificacion-smtp.py", line 49, in <module>
+    response = es.search(index=index_name, body=query)
+  File "/home/nicolas/.local/lib/python3.10/site-packages/elasticsearch/_sync/client/utils.py", line 414, in wrapped
+    return api(*args, **kwargs)
+  File "/home/nicolas/.local/lib/python3.10/site-packages/elasticsearch/_sync/client/__init__.py", line 3863, in search
+    return self.perform_request(  # type: ignore[return-value]
+  File "/home/nicolas/.local/lib/python3.10/site-packages/elasticsearch/_sync/client/_base.py", line 285, in perform_request
+    meta, resp_body = self.transport.perform_request(
+  File "/home/nicolas/.local/lib/python3.10/site-packages/elastic_transport/_transport.py", line 329, in perform_request
+    meta, raw_data = node.perform_request(
+  File "/home/nicolas/.local/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 199, in perform_request
+    raise err from None
+elastic_transport.ConnectionError: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f03a01dc0d0>: Failed to establish a new connection: [Errno 111] Connection refused))
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 4, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 2, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+Traceback (most recent call last):
+  File "/home/nicolas/notificaciones-python/notificacion-smtp.py", line 49, in <module>
+    response = es.search(index=index_name, body=query)
+  File "/home/nicolas/.local/lib/python3.10/site-packages/elasticsearch/_sync/client/utils.py", line 414, in wrapped
+    return api(*args, **kwargs)
+  File "/home/nicolas/.local/lib/python3.10/site-packages/elasticsearch/_sync/client/__init__.py", line 3863, in search
+    return self.perform_request(  # type: ignore[return-value]
+  File "/home/nicolas/.local/lib/python3.10/site-packages/elasticsearch/_sync/client/_base.py", line 285, in perform_request
+    meta, resp_body = self.transport.perform_request(
+  File "/home/nicolas/.local/lib/python3.10/site-packages/elastic_transport/_transport.py", line 329, in perform_request
+    meta, raw_data = node.perform_request(
+  File "/home/nicolas/.local/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 199, in perform_request
+    raise err from None
+elastic_transport.ConnectionError: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f2b622f80d0>: Failed to establish a new connection: [Errno 111] Connection refused))
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 3, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+Traceback (most recent call last):
+  File "/home/nicolas/notificaciones-python/notificacion-smtp.py", line 49, in <module>
+    response = es.search(index=index_name, body=query)
+  File "/home/nicolas/.local/lib/python3.10/site-packages/elasticsearch/_sync/client/utils.py", line 414, in wrapped
+    return api(*args, **kwargs)
+  File "/home/nicolas/.local/lib/python3.10/site-packages/elasticsearch/_sync/client/__init__.py", line 3863, in search
+    return self.perform_request(  # type: ignore[return-value]
+  File "/home/nicolas/.local/lib/python3.10/site-packages/elasticsearch/_sync/client/_base.py", line 285, in perform_request
+    meta, resp_body = self.transport.perform_request(
+  File "/home/nicolas/.local/lib/python3.10/site-packages/elastic_transport/_transport.py", line 329, in perform_request
+    meta, raw_data = node.perform_request(
+  File "/home/nicolas/.local/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 199, in perform_request
+    raise err from None
+elastic_transport.ConnectionError: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f4b6c5800d0>: Failed to establish a new connection: [Errno 111] Connection refused))
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+Traceback (most recent call last):
+  File "/home/nicolas/notificaciones-python/notificacion-smtp.py", line 49, in <module>
+    response = es.search(index=index_name, body=query)
+  File "/home/nicolas/.local/lib/python3.10/site-packages/elasticsearch/_sync/client/utils.py", line 414, in wrapped
+    return api(*args, **kwargs)
+  File "/home/nicolas/.local/lib/python3.10/site-packages/elasticsearch/_sync/client/__init__.py", line 3863, in search
+    return self.perform_request(  # type: ignore[return-value]
+  File "/home/nicolas/.local/lib/python3.10/site-packages/elasticsearch/_sync/client/_base.py", line 285, in perform_request
+    meta, resp_body = self.transport.perform_request(
+  File "/home/nicolas/.local/lib/python3.10/site-packages/elastic_transport/_transport.py", line 329, in perform_request
+    meta, raw_data = node.perform_request(
+  File "/home/nicolas/.local/lib/python3.10/site-packages/elastic_transport/_node/_http_urllib3.py", line 199, in perform_request
+    raise err from None
+elastic_transport.ConnectionError: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f3c849800d0>: Failed to establish a new connection: [Errno 111] Connection refused))
+/home/nicolas/notificaciones-python/notificacion-smtp.py:49: DeprecationWarning: The 'body' parameter is deprecated and will be removed in a future version. Instead use individual parameters.
+  response = es.search(index=index_name, body=query)
+{'took': 3, 'timed_out': False, '_shards': {'total': 1, 'successful': 1, 'skipped': 0, 'failed': 0}, 'hits': {'total': {'value': 0, 'relation': 'eq'}, 'max_score': None, 'hits': []}}
+No se encontraron logs específicos en Elasticsearch.
