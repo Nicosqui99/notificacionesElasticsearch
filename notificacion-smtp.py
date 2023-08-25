@@ -4,7 +4,7 @@ from email.mime.text import MIMEText
 from datetime import datetime, timedelta
 
 # Configuración de Elasticsearch
-es = Elasticsearch(['http://localhost:9200'])  # Reemplaza con la URL y el puerto de tu instancia de Elasticsearch
+es = Elasticsearch(['http://3.145.120.171:9200:9200'])  # Reemplaza con la URL y el puerto de tu instancia de Elasticsearch
 index_name = 'my-application-logs'  # Nombre del índice de logs
 
 # Configuración del servidor de correo
