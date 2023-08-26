@@ -12,9 +12,9 @@ smtp_host = 'smtp.sendgrid.net'  # Reemplaza con la dirección del servidor SMTP
 smtp_port = 587  # Puerto del servidor SMTP
 smtp_username = 'apikey'
 # Reemplaza con tu dirección de correo electrónico
-smtp_password = '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'  
+smtp_password = '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'  
 # Reemplaza con tu contraseña de correo electrónico
-from_address = 'sms.afk@gmail.com'
+from_address = 'notificacionlog@gmail.com'
 # Reemplaza con tu dirección de correo electrónico
 to_address = 'nico50829@gmail.com'
 # Reemplaza con la dirección de correo electrónico del destinatario
